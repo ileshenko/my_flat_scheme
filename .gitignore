@@ -1,0 +1,7 @@
+# Ignore list for Eagle, a PCB layout tool
+# Taken from https://github.com/github/gitignore
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
