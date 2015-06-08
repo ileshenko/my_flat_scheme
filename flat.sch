@@ -1288,7 +1288,6 @@ das komplette Device mit Package und den richtigen Pad-Namen.&lt;p&gt;
 <part name="JP31" library="SparkFun-Connectors" deviceset="M02" device="-JST-2-PTH-NO_SILK"/>
 <part name="JP32" library="SparkFun-Connectors" deviceset="M02" device="-JST-2-PTH-NO_SILK"/>
 <part name="JP33" library="SparkFun-Connectors" deviceset="M02" device="-JST-2-PTH-NO_SILK"/>
-<part name="JP34" library="SparkFun-Connectors" deviceset="M02" device="-JST-2-PTH-NO_SILK"/>
 <part name="S3" library="adafruit" deviceset="31-XX" device=""/>
 <part name="S4" library="adafruit" deviceset="31-XX" device=""/>
 <part name="S5" library="adafruit" deviceset="31-XX" device=""/>
@@ -1390,6 +1389,7 @@ das komplette Device mit Package und den richtigen Pad-Namen.&lt;p&gt;
 <text x="264.16" y="276.86" size="5.08" layer="97">16A</text>
 <text x="-22.86" y="284.48" size="5.08" layer="97">16A</text>
 <text x="190.5" y="330.2" size="5.08" layer="97">10A</text>
+<text x="388.62" y="327.66" size="6.4516" layer="97" ratio="9">Boiler</text>
 </plain>
 <instances>
 <instance part="P1" gate="G$1" x="63.98" y="188.58"/>
@@ -1439,7 +1439,6 @@ das komplette Device mit Package und den richtigen Pad-Namen.&lt;p&gt;
 <instance part="JP31" gate="G$1" x="416.12" y="32"/>
 <instance part="JP32" gate="G$1" x="433.88" y="28" rot="R180"/>
 <instance part="JP33" gate="G$1" x="498" y="146.12" rot="R90"/>
-<instance part="JP34" gate="G$1" x="448" y="146.12" rot="R90"/>
 <instance part="S3" gate="1" x="103.5" y="162.86"/>
 <instance part="S4" gate="1" x="113.5" y="162.86"/>
 <instance part="S5" gate="1" x="132.5" y="272.14" rot="R180"/>
@@ -1645,11 +1644,13 @@ das komplette Device mit Package und den richtigen Pad-Namen.&lt;p&gt;
 </bus>
 <bus name="B$21">
 <segment>
-<wire x1="444.5" y1="175.26" x2="541.02" y2="175.26" width="0.762" layer="92"/>
+<wire x1="444.5" y1="175.26" x2="495.3" y2="175.26" width="0.762" layer="92"/>
+<wire x1="495.3" y1="175.26" x2="541.02" y2="175.26" width="0.762" layer="92"/>
 <wire x1="541.02" y1="175.26" x2="541.02" y2="162.56" width="0.762" layer="92"/>
 <wire x1="541.02" y1="162.56" x2="586.74" y2="162.56" width="0.762" layer="92"/>
 <wire x1="586.74" y1="162.56" x2="586.74" y2="299.72" width="0.762" layer="92"/>
 <wire x1="586.74" y1="299.72" x2="487.68" y2="299.72" width="0.762" layer="92"/>
+<wire x1="495.3" y1="154.94" x2="495.3" y2="175.26" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="B$22">
